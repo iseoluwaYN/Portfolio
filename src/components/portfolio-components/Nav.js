@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/style/Nav.css' ;
+import '../style/Nav.css' ;
 const Nav = () => {
     return (
         <div className='nav'>
@@ -9,8 +9,8 @@ const Nav = () => {
                 <a href=''>About</a>
                 <a href=''>Services</a>
                 <a href=''>Portfolio</a>
+                <a href=''>Skills</a>
             </div>
-
         </div>
     );
 };
