@@ -8,8 +8,6 @@ const Container = () => {
     return (
         <div className='body'>
             <Nav/>
-            <Home/>
-            <Project/>
         </div>
     );
 };

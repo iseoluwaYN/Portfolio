@@ -1,15 +1,12 @@
 import React from 'react';
+import ProjectDetails from "./ProjectDetails";
 
 const Project = () => {
     return (
         <div>
-            <div className='image'>
-            {/*    image*/}
-            </div>
-            <div className='description'>
-                <h4>Name of Project</h4>
-                <p> about project.....................</p>
-            </div>
+           <div className='details'>
+               <ProjectDetails/>
+           </div>
         </div>
     );
 };
