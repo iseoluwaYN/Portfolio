@@ -1,7 +1,7 @@
 import React from 'react';
 import {Bolt, Launch} from "@mui/icons-material";
 import Picture from '../assets/note.jpg'
-import '../style/ProjecrDetails.css';
+import '../style/ProjectDetails.css';
 
 const ProjectDetails = () => {
     return (
