@@ -10,11 +10,16 @@
 .navItem{
     display:flex;
     align-items: center;
-    width: 20rem;
+    width: 25rem;
     justify-content: space-between;
 }
 
 .navItem a{
+    font-size: 100%;
     text-decoration: none;
     color: #730217;
+}
+
+.navItem a:hover{
+    color: #8076a3;
 }

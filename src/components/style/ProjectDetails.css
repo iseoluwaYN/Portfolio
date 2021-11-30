@@ -1,0 +1,35 @@
+.projectDetails{
+    height: 26rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: rosybrown;
+    /*background-color: antiquewhite;*/
+}
+
+.picture{
+    height: 13rem;
+    width: 20rem;
+}
+
+.description{
+    height: 13rem;
+    width: 20rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /*padding-bottom: 2rem;*/
+}
+
+.description p{
+    width: 15rem;
+    text-align: center;
+}
+
+.picture img{
+    width: 20rem;
+}
+
+/*.projectLink{*/
+/*    text-align: center;*/
+/*}*/

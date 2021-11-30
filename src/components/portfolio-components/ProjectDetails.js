@@ -1,11 +1,13 @@
 import React from 'react';
 import {Bolt, Launch} from "@mui/icons-material";
+import Picture from '../assets/note.jpg'
+import '../style/ProjecrDetails.css';
 
 const ProjectDetails = () => {
     return (
-        <div>
+        <div className='projectDetails'>
             <div className='picture'>
-
+                <img src={Picture} alt='image_for_projects'/>
             </div>
             <div className='description'>
                 <h2>Project Name</h2>

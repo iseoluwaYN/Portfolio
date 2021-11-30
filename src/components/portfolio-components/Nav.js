@@ -11,17 +11,17 @@ const Nav = () => {
                 <h1>Iseoluwa</h1>
 
                 <div className='navItem'>
-                    <Link to='/'><b>About me</b></Link>
-                    <Link to='/skills'><b>Skills</b></Link>
-                    <Link to='/services'><b>Services</b></Link>
-                    <Link to='/projects'><b>Projects</b></Link>
+                    <Link to='/'>About me</Link>
+                    <Link to='/skills'>Skills</Link>
+                    <Link to='/services'>Services</Link>
+                    <Link to='/projects'>Projects</Link>
 
                 </div>
             </div>
 
             <Routes>
                 <Route  path="/" element={<Home/>}/>
-                <Route path="/portfolio" element={<Projects/>}/>
+                <Route path="/projects" element={<Projects/>}/>
             </Routes>
         </Router>
 

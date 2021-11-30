@@ -1,6 +1,6 @@
 .home button{
-    background-color: #A60321;
-    color: peachpuff;
+    background-color: #8076a3;
+    color: #f6d8bb;
     padding: 10px 35px;
     border-radius: 10px;
     border: unset;
@@ -19,6 +19,5 @@
     width: 30rem ;
 }
 
-.home img{
-    /*margin-top: -3rem;*/
+.home img{ /*margin-top: -3rem;*/
 }
